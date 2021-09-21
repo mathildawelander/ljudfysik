@@ -1,0 +1,65 @@
+
+
+body{
+    margin-top: 2rem;
+    background: black;
+}
+
+#head_div{
+    display: grid;
+    height: 150px;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  font-family: 'Bahnschrift';
+  
+}
+
+#btn
+{
+    width: 95%;
+    height: 100%;
+    color: white;
+    margin: auto;
+    background-image: linear-gradient(to right, #c9a964f6 0%, #85a398 100%);
+    text-align: center;
+    border: 2px solid;
+    border-radius: 5rem;
+    vertical-align: middle;
+    box-shadow: 5px 5px 4px 1px #888888;
+
+
+}
+
+#btnn
+{
+    width: 95%;
+    height: 100%;
+    color: white;
+    margin: auto;
+    background-image: linear-gradient(to right, #1f8335 0%, #00eeff 100%);
+    border: 2px solid;
+    border-radius: 5rem;
+    text-align: center;
+    box-shadow: 5px 5px 4px 1px #888888;
+}
+
+#btnnn
+{
+    width: 95%;
+    height: 100%;
+    color: white;
+    margin: auto;
+    background-image: linear-gradient(to right, #00dbde 0%, #fc00ff 100%);
+    border: 2px solid;
+    border-radius: 5rem;
+    text-align: center;
+    box-shadow: 5px 5px 4px 1px #888888;
+}
+
+#jonte{
+    display: none;
+}
